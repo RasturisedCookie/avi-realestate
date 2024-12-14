@@ -63,13 +63,13 @@ export const projectsData = [
       image: project_img_4
     },
     {
-      title: "Vista Verde",
+      title: "High Hues",
       price: "$5,50,000",
       location: "San Francisco",
       image: project_img_5
     },
     {
-      title: "Serenity Suites",
+      title: "Mono Blonc",
       price: "$2,35,000",
       location: "Chicago",
       image: project_img_6
@@ -80,7 +80,7 @@ export const projectsData = [
   export const testimonialsData = [
     {
         name: "Donald Jackman",
-        title: "Marketing Manager",
+        title: "Cybersecurity Analyst",
         image: profile_img_1,
         alt: "Portrait of Donald Jackman",
         rating: 5,
@@ -88,7 +88,7 @@ export const projectsData = [
     },
     {
         name: "Richard Nelson",
-        title: "UI/UX Designer",
+        title: "Musician",
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
@@ -96,7 +96,7 @@ export const projectsData = [
     },
     {
         name: "James Washington",
-        title: "Co-Founder",
+        title: "Psychologist",
         image: profile_img_3,
         alt: "Portrait of James Washington",
         rating: 5,
