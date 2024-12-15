@@ -20,8 +20,6 @@ Contact Form: Users can easily inquire about properties or connect with your tea
 
 User Feedback: Toast notifications keep users informed about actions and provide confirmation messages.
 
-Seamless Navigation: React Router (or a preferred routing library) can be implemented for smooth navigation between pages.
-
 Modern Design: The site boasts a clean and modern design that is responsive and adapts to various screen sizes.
 
 Fluid Animations: Framer Motion adds subtle animations to enhance the user experience and make the site more engaging.
