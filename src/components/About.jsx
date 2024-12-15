@@ -1,5 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { motion } from "motion/react";
 
 function About() {
   return (
@@ -42,8 +43,22 @@ function About() {
               <p>Ongoing Projects</p>
             </div>
           </div>
-          <p className="my-10 max-w-lg">A premier real estate developer dedicated to crafting exceptional living and working spaces. We blend innovative design, sustainable practices, and meticulous craftsmanship to deliver high-quality properties that stand the test of time. From residential communities to commercial developments, we build with vision and integrity, shaping the future of urban landscapes.</p>
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">Learn More</button>
+          <p className="my-10 max-w-lg">
+            A premier real estate developer dedicated to crafting exceptional
+            living and working spaces. We blend innovative design, sustainable
+            practices, and meticulous craftsmanship to deliver high-quality
+            properties that stand the test of time. From residential communities
+            to commercial developments, we build with vision and integrity,
+            shaping the future of urban landscapes.
+          </p>
+          <motion.button
+            whileHover={{ scale: 1.025 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="bg-blue-600 text-white px-8 py-2 rounded"
+          >
+            Learn More
+          </motion.button>
         </div>
       </div>
     </div>

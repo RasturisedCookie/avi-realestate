@@ -1,5 +1,6 @@
 import React from "react";
 import { testimonialsData } from "../assets/assets";
+import { assets } from "../assets/assets";
 
 function Testimonials() {
   return (
@@ -9,7 +10,7 @@ function Testimonials() {
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
         Customer
-        <span className="underline underline-offset-4 decoration-1 under font-light">
+        <span className="underline underline-offset-4 decoration-1 under font-light px-2">
           Testimonials
         </span>
       </h1>
@@ -27,13 +28,16 @@ function Testimonials() {
               src={testimonial.image}
               alt={testimonial.alt}
             />
-            <h2>{testimonial.name}</h2>
-            <p>{testimonial.title}</p>
-            {/* <div>
-              {Array.from({ length: testimonials.rating }, (item, index) => (
+            <h2 className="text-xl text-gray-700 font-medium">
+              {testimonial.name}
+            </h2>
+            <p className="text-gray-500 mb-4 text-sm">{testimonial.title}</p>
+            <div className="flex justify-center gap-1 text-red-500 mb-4">
+              {Array.from({ length: testimonial.rating }, (item, index) => (
                 <img key={index} src={assets.star_icon} alt="" />
               ))}
-            </div> */}
+            </div>
+            <p className="text-gray-600">{testimonial.text}</p>
           </div>
         ))}
       </div>

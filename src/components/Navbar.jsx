@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { assets } from "../assets/assets";
+import { motion } from "motion/react";
 
 function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -28,14 +29,22 @@ function Navbar() {
           <a href="#Projects" className="cursor-pointer  hover:text-gray-400">
             Projects
           </a>
-          <a href="#Testimonials" className="cursor-pointer  hover:text-gray-400">
+          <a
+            href="#Testimonials"
+            className="cursor-pointer  hover:text-gray-400"
+          >
             Testimonials
           </a>
         </ul>
         {/* In small devices hides the signup button & visible on other sizes*/}
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="hidden md:block bg-white px-8 py-2 rounded-full"
+        >
           Sign Up
-        </button>
+        </motion.button>
         {/* Mobile menu icon for small screens & sets true for showing mobile menu */}
         <img
           onClick={() => setShowMobileMenu(true)}
