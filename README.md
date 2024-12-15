@@ -1,8 +1,19 @@
-# React + Vite
+# Estate: Modern Real Estate Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
 
-Currently, two official plugins are available:
+This real estate website is built using React for a dynamic and user-friendly experience. It leverages the following technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    React: A JavaScript library for building user interfaces.
+    React Toast: Provides user feedback through non-intrusive, customizable notifications.
+    W3 Forms: Ensures semantic and accessible form building.
+    Framer Motion: Adds smooth and engaging animations for a visually appealing user experience.
+
+Features
+
+    Property Listings: Search for properties based on various criteria and view detailed information with high-quality images.
+    Contact Form: Users can easily inquire about properties or connect with your team using a user-friendly, validated contact form.
+    User Feedback: Toast notifications keep users informed about actions and provide confirmation messages.
+    Seamless Navigation: React Router (or a preferred routing library) can be implemented for smooth navigation between pages.
+    Modern Design: The site boasts a clean and modern design that is responsive and adapts to various screen sizes.
+    Fluid Animations: Framer Motion adds subtle animations to enhance the user experience and make the site more engaging.
