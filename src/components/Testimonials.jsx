@@ -14,7 +14,7 @@ function Testimonials() {
           Testimonials
         </span>
       </h1>
-      <p className="ext-center text-gray-500 mb-8 max-w-80 mx-auto">
+      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
         Proven results, backed by client experience
       </p>
       <div className="flex flex-wrap justify-center gap-8">
