@@ -4,13 +4,14 @@ import { toast } from "react-toastify";
 function Contacts() {
   // simple web3 forms used here
   const [result, setResult] = React.useState("");
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "aaf1aa31-65d3-4138-a256-4e5e6e50fcbb");
+    formData.append("access_key", apiKey);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
